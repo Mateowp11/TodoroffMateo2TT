@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP1
 {
-    internal class Banco
+    public class Banco
     {
     }
 }
