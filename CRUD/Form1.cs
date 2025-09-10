@@ -6,5 +6,14 @@ namespace CRUD
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Persona unaPersona = new Persona();
+            if (unaPersona.Ok())
+                MessageBox.Show("Conectado");
+            else
+                MessageBox.Show("No conectado");
+        }
     }
 }
